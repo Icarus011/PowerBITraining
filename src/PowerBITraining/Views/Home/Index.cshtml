@@ -1,0 +1,196 @@
+﻿<html style="background-color: maroon;">
+<head>
+    <!-- Begin css -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/css/stylingz.css" rel="stylesheet" />
+    <link href="~/css/site.min.css" rel="stylesheet" />
+    <!-- Begin javascript -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/shuffler.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/contact.js"></script>
+    <script src="~/js/site.js"></script>
+</head>
+<body>
+    <header>
+        <div class="row" id="headerrow">
+            <div class="container" style="display: inline;">
+                <div class="col-xs-offset-0">
+                    <h4><a href="/"><img src="~/images/Terracon.png" /></a><span style="color: white;">-</span><em class="sss"><a href="/" id="text">Welcome to Power BI Training. Click Here to Follow Along </a></em></h4>
+                    <div class="logoUnderline"></div>
+                    <br />
+                    <div>
+                        <button class="btn back hide btn-default">
+                            <i class="glyphicon glyphicon-circle-arrow-left"></i>
+                            Back
+                        </button>
+                        <button class="btn buttonz btn-default blah six contentpack filtered">
+                            <i class="glyphicon glyphicon-log-in"></i>
+                           Login
+                        </button>
+                        <button class="btn buttonz btn-default blah six getacontentpack">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                            Content Pack
+                        </button>
+                        <button class="buttonz btn blah btn-default six shDash hide">
+                            <i class='glyphicon glyphicon-filter'></i>
+                            Filter
+                        </button>
+                        <button class="buttonz btn blah btn-default six focusing hide">
+                            <i class="glyphicon glyphicon-zoom-in"></i>
+                            Focus
+                        </button>
+                        <button class="buttonz btn blah btn-default six tabbing hide">
+                            <i class="glyphicon glyphicon-tags"></i>
+                            Switch Pages
+                        </button>
+                        <button class="buttonz btn blah btn-default six executiveUseCase hide">
+                            <i class="glyphicon glyphicon-king"></i>
+                        </button>
+                        <button class="buttonz btn blah btn-default executiveUseCaseStep2 hide">
+                            <i class="glyphicon glyphicon-arrow-right"></i>
+                            Next
+                        </button>
+                        <button class="buttonz btn blah btn-default executiveUseCaseStep3 hide">
+                            <i class="glyphicon glyphicon-circle-arrow-down"></i>
+                            Drill Down
+                        </button>
+                        <button class="buttonz btn blah btn-default executiveUseCaseStep4 hide">
+                            <i class="glyphicon glyphicon-circle-arrow-up"></i>
+                            Drill Up
+                        </button>
+                        <button class="buttonz btn blah btn-default executiveUseCaseStep5 hide">
+                            <i class="glyphicon glyphicon-wrench"></i>
+                            Customize - Copy
+                        </button>
+                        <button class="buttonz btn blah btn-default executiveUseCaseStep6 hide">
+                            <i class="glyphicon glyphicon-wrench"></i>
+                            Customize - Pin
+                        </button>
+                     
+                     
+                       
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </header>
+  
+    <div>
+
+
+        <!-- Modal -->
+        <div class="modalz1 modalisclosed" style="position: absolute;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hide="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Select Your Profile</h4>
+                </div>
+                <div class="modal-body" data-dismiss="modal" >
+                    <h5 style="color: white; margin-top: 1% !important;">-</h5>
+                    <button class="btn btn-lg blah useprofile he selected getProfile">Executive</button>
+                    <button class="btn btn-lg blah useprofile he">Office Manager</button>
+                    <button class="btn btn-lg blah useprofile he">SL Director</button>
+                    <h5 style="color: white; margin-top: 1% !important;">-</h5>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-lg useprofile closing hashtag"  id="closing" data-dismiss="modal">Use This Profile</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Modal-->
+
+        <div class="modalz2 modalisclosed" style="position: absolute;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close close2" data-dismiss="modal" aria-label="Close"><span aria-hide="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Filter</h4>
+                </div>
+                <div class="modal-body filteringvideo" style="overflow: hidden;">
+             
+
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+
+        <!--Modal-->
+     
+        <div class="modalz3 modalisclosed" data-dismiss="modal"  style="position: absolute;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close close3" data-dismiss="modal" aria-label="Close"><span aria-hide="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Focus</h4>
+                </div>
+                <div class="modal-body focusingvideo" style="overflow: hidden;">
+
+
+                </div>
+                <div data-dismiss="modal"  class="modal-footer">
+               
+                </div>
+            </div>
+        </div>
+
+
+        <!--Modal-->
+
+        <div class="modalz4 modalisclosed" style="position: absolute;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close close4" aria-label="Close"><span aria-hide="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Switching Pages</h4>
+                </div>
+                <div class="modal-body paginationvideo" style="overflow: hidden;">
+
+
+                </div>
+                <div class="modal-footer">
+                  
+                </div>
+            </div>
+        </div>
+
+
+        <!--Modal-->
+        <button type="button" class="btn btn-lg btn-default closing hide" style="display: none;" id="shuffle"></button>
+        <div class="yobut">
+            <button type="button" class="btn blaze ok hide" id="modalz" data-toggle="modal" data-target="#myModal1">
+                <h4 id="headline" style="color: white;"></h4>
+            </button>
+        </div>
+        <div class='contained container loaderCage hide' id='loader'><div class='dot'></div><div class='dot'></div><div class='dot'></div></div>
+        <div class="row powerbi" style="height: 90%;">
+            <div class="container" id="youtubing">
+                <div class="col-xs-offset-10 col-sm-offset-3 col-lg-offset-2 col-xs-offset-3">
+                    <div class="span">-                -</div>
+                    <img class="powerbi itemz" width="500" height="300" src="../images/PowerBILogo.jpg" />
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row resize">
+
+
+        </div>
+
+      
+    </div>
+    <!--Modal-->
+
+   
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+</body>
+<div class="block hide" style="position:absolute; z-index: 15000; margin-left: -100%; margin-top: -250%; height: 700%; width: 900%; background-color: black; opacity: .80; color: white;"></div>
+<div class="prevent hide" style="position:absolute; z-index: 15000; margin-left: -100%; margin-top: -250%; height: 700%; width: 900%; background-color: white; opacity: .01;"></div>
+</html>
+

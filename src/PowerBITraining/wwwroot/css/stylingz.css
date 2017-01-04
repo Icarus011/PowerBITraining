@@ -1,0 +1,399 @@
+﻿@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+
+
+body {
+    margin: 1.5% 5% 1.5% 5%;
+    border-radius: 25px;
+    max-height: 950px !important;
+}
+
+#headerrow {
+    margin: -5% 0 2% 0;
+}
+
+img.powerbi {
+    border-radius: 20px;
+   
+}
+
+.span {
+    color: white;
+}
+
+ul {
+    margin-left: 37%;
+}
+ul li {
+    
+   margin-bottom: 10%;
+}
+
+.logoUnderline {
+    border-bottom: 3px solid maroon;
+}
+
+.row.resize {
+    margin: -4% 2% 2% 0%;
+}
+
+iframe.resize {
+    margin-top: -5.2%;
+}
+
+.shareDashboard {
+    width: 525px;
+}
+
+.shDash2 {
+
+background-color: maroon;
+color: white;
+}
+
+.btn {
+
+font-size: 14px;
+}
+
+.loginsignincontentpack {
+    border-radius: 10px;
+}
+
+
+.ex {
+    background-color: maroon;
+    transition-duration: .5s;
+    background-color: white;
+    color: black;
+}
+
+.ex:hover {
+    transition-duration: .5s;
+    margin-top: -2.5% !important;
+    border-color: maroon !important;
+    background-color: maroon !important;
+    color: white !important;
+}
+
+.exec2 {
+    margin-left: 15% !important;
+}
+.badgez {
+
+align-items: center;
+width: 65%;
+}
+
+
+
+
+
+
+
+.profiled {
+background-color: transparent;
+border-color: transparent;
+
+}
+
+
+
+.profiled:hover {
+    background-color: transparent;
+border-color: transparent;
+}
+
+
+
+    .blah {
+    background-color: maroon;
+    transition-duration: .5s;
+    background-color: white;
+    color: black;
+    border-color: gray;
+}
+
+.blah:hover {
+    transition-duration: .5s;
+    margin-top: -1% !important;
+    border-color: maroon !important;
+    background-color: maroon !important;
+    color: white !important;
+}
+
+
+.modal-body > img {
+   
+    width: 100%
+
+}
+
+@media screen and (min-width: 300px) and (min-height: 400px)  {
+	
+   .modalz1  {       width: 650px;   }
+   .modalz1 { margin-left: 10%;     }
+   .modalz1 .modal-body {  height: 250px;   }
+
+   .modalz2  {       width: 65% !important;   }
+   .modalz2 { margin-left: -5% !important;     }
+   .modalz2 .modal-body {  height: 36.562% }
+
+   .modalz3  {       width: 60% !important;   }
+   .modalz3 { margin-left: -5% !important;     }
+   .modalz3 .modal-body {  height: 500px !important; overflow: hidden !important; }
+
+    
+
+}
+
+
+
+.buttonz {
+
+opacity: 1 !important;
+}
+
+.powerbi>img {
+      width: 60%;
+      margin-left: 10%;
+}
+
+
+.usethisprofile {
+
+    transition-duration: .5s;
+    border-color: maroon !important;
+    background-color: maroon !important;
+    color: white !important;
+
+}
+
+.btn.useprofile:hover{
+  
+    transition-duration: .5s;
+    border-color: maroon !important;
+    background-color: maroon !important;
+    color: white !important;
+}
+
+.btn.blah:focus{
+    transition-duration: .5s;
+    border-color: maroon !important;
+    background-color: maroon !important;
+    color: white !important;
+
+}
+
+.buttonz:hover {
+    transition-duration: .5s;
+    border-color: maroon !important;
+    background-color: maroon !important;
+    color: white !important;
+}
+
+.buttonz:focus {
+    transition-duration: .5s;
+    border-color: maroon !important;
+    background-color: maroon !important;
+    color: white !important;
+}
+
+.ok {
+    transition-duration: .5s;
+        border-color: maroon !important;
+        background-color: white;
+        color: white !important;
+   
+
+
+}
+    .ok:hover {
+      margin-top: -2%;
+      color: white !important;
+  
+      border: 4px maroon dashed;
+    }
+
+.yobut {
+
+margin-left: 29%;
+
+}
+
+
+.selected {
+     transition-duration: .5s;
+    border-color: maroon !important;
+    background-color: maroon !important;
+    color: white !important;
+
+}
+
+.hashtag {
+        transition-duration: .5s;
+    border-color: maroon !important;
+    background-color: maroon !important;
+    color: white !important;
+
+}
+
+.contained {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          z-index: 9999;
+}
+.dot {
+  width: 50px;
+  height: 50px;
+  border: 6px solid maroon;
+  border-radius: 50%;
+  float: left;
+  margin: 0 5px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: fx 2000ms ease infinite 0ms;
+          animation: fx 2000ms ease infinite 0ms;
+}
+.dot:nth-child(2) {
+  -webkit-animation: fx 2000ms ease infinite 600ms;
+          animation: fx 2000ms ease infinite 600ms;
+}
+.dot:nth-child(3) {
+  -webkit-animation: fx 2000ms ease infinite 1200ms;
+          animation: fx 2000ms ease infinite 1200ms;
+}
+@-webkit-keyframes fx {
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fx {
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.knockDown {
+    margin-top: 1%;
+}
+
+.goRight {
+          -webkit-transform: translateX(5%);
+            transform: translateX(5%);
+        opacity: 1;
+        -webkit-animation: goRight ease-out 3s;
+          animation: goRight ease-out 3s;
+}
+
+.ball {
+        -webkit-transform: translateX(-15%);
+            transform: translateX(-15%);
+       opacity: 1;
+           -webkit-animation: ball ease-out 3s;
+                   animation: ball ease-out 3s;
+}
+@keyframes goRight {
+
+  0% {
+    -webkit-transform: translateX(-5%);
+            transform: translateX(-5%);
+         opacity: 1;
+
+  }
+
+    90% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+        
+             opacity: 1;
+  }   95% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+        
+             opacity: 1;
+  }   
+      97.5% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+        
+             opacity: 1;
+  }
+
+   100% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+        
+             opacity: 1;
+  }
+}
+
+@keyframes ball {
+
+  0% {
+    -webkit-transform: translateX(15%);
+            transform: translateX(15%);
+           opacity: 1;
+
+  }
+
+ 90% {
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+        
+             opacity: 1;
+  }
+ 
+ 95% {
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+        
+             opacity: 1;
+  }
+ 
+ 97.5% {
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+        
+             opacity: 1;
+  }
+
+   100% {
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+        
+             opacity: 1;
+  }
+}
+
+
+
+.hide {
+
+display: none !important;
+}
+
+.modalisopen {
+transition-duration: 2s;
+margin-top: -9% !important;
+z-index: 20000;
+
+}
+
+.modalisclosed {
+transition-duration: 2s;
+margin-top: -200%;
+
+}
